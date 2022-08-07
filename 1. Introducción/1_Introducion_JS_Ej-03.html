@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 03 JS</title>
+  </head>
+
+  <body>
+    <h1>¿Que puede hacer JavaScript?</h1>
+
+    <p>JavaScript puede cambiar los valores de los atributos HTML.</p>
+    <br />
+    <p>
+      En este caso, JavaScript cambia el valor del atributo "scr" (fuente) de
+      una imagen
+    </p>
+    <br>
+    
+    <button type="button" onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Encienda la Luz</button>
+    
+    <img id="myImage" src="img/pic_bulboff.gif" style="width: 100px" />
+
+    <button type="button" onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Apaga la Luz</button>
+
+  </body>
+</html>

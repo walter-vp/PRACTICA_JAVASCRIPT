@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comentarios JS 03</title>
+  </head>
+  <body>
+    <!-- Comentarios de varias líneas Los comentarios de varias líneas comienzan con
+    /*y terminan con */. Cualquier texto entre /*y */será ignorado por
+    JavaScript. Este ejemplo utiliza un comentario de varias líneas (un bloque
+    de comentarios) para explicar el código: -->
+
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+    
+    <script>
+    /*
+    El siguiente código cambiará 
+    el encabezado con id = "myH" y 
+    el párrafo con id = "myP"
+    */
+    document.getElementById("myH").innerHTML = "JavaScript Comments";
+    document.getElementById("myP").innerHTML = "My first paragraph.";
+    </script>
+
+  </body>
+</html>

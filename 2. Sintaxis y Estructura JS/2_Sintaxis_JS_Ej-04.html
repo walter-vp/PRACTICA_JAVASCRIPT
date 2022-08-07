@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sintaxis JS 04</title>
+  </head>
+
+  <body>
+    <h2>Palabras clave de JavaScript para Crear Variables</h2>
+
+    <p>
+      El código después de barras oblicuas dobles // o entre /* y */se trata
+      como un comentario .
+    </p>
+
+    <p>Los comentarios se ignoran y no se ejecutarán:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      let x = 0;
+      var y = 0;
+      var z = 0;
+      x = 5 + 6;
+      y = x * 10;
+      // z = x + y;
+       y = y + z;
+       /*
+        Este es un ejemplo de multilínea:
+        La variable z no modifica su valor inicial de 0.
+        Al sumar la variable y + z que tiene un valor de 0.
+        La variable y mantiene su valor de 110.
+       */
+      document.getElementById("demo").innerHTML = y;
+    </script>
+  </body>
+</html>

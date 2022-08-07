@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables JS 02</title>
+</head>
+<body>
+    <!-- ¿Cuándo usar JavaScript var?
+    Declare siempre las variables de JavaScript con var, leto const.
+    La varpalabra clave se usa en todo el código JavaScript desde 1995 hasta 2015.
+    Las palabras clave let y const se agregaron a JavaScript en 2015.
+    Si desea que su código se ejecute en un navegador anterior, debe usar var.
+
+    ¿Cuándo usar JavaScript const?
+    Si quieres una regla general: declara siempre las variables con const.
+
+    Si cree que el valor de la variable puede cambiar, use let.
+
+    En este ejemplo, price1, price2y total, son variables: -->
+
+    <h1>Variables JavaScript</h1>
+    
+    <p>In este ejemplo precio1 y precio2 son "const" y total es "let"</p>
+    
+    <p id="demo"></p>
+    
+    <script>
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        document.getElementById("demo").innerHTML =
+            "The total is: " + total;
+    </script>
+</body>
+</html>

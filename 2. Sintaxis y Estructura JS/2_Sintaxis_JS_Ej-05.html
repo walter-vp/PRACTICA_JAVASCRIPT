@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sintaxis JS 05</title>
+  </head>
+
+  <body>
+    <h2>Palabras clave de JavaScript para Crear Variables</h2>
+
+    <p>
+      Todos los identificadores de JavaScript distinguen entre mayúsculas y
+      minúsculas
+    </p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    
+    <script>
+      // Las variables lastName y lastname, son dos variables diferentes
+      let lastname, lastName;
+      lastName = "Doe";
+      lastname = "Peterson";
+      document.getElementById("demo1").innerHTML = lastName;
+      document.getElementById("demo2").innerHTML = lastName + ' ' + lastname;
+    </script>
+  </body>
+</html>
